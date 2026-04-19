@@ -92,7 +92,7 @@ export default function Profile() {
           <h3 className="font-headline font-bold text-xl text-primary">Earned Badges</h3>
           <button className="text-primary font-bold text-sm hover:underline">View All</button>
         </div>
-        <div className="flex gap-4 overflow-x-auto pb-4 no-scrollbar -mx-2 px-2">
+        <div className="flex gap-4 overflow-x-auto pb-4 pt-2 no-scrollbar -mx-2 px-2">
           {badges.map((badge) => (
             <motion.div
               key={badge.name}
